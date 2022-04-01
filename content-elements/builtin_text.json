@@ -1,0 +1,127 @@
+[
+  {
+    "id": "builtin_text-Uh9O_u",
+    "formData": {
+      "text$en": "Hi",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-04-01T07:10:18.464Z",
+    "modifiedOn": "2022-04-01T07:10:18.464Z"
+  },
+  {
+    "id": "builtin_text-1F3Nko",
+    "formData": {
+      "text$en": "Just Mars photographer",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-04-01T07:10:41.350Z",
+    "modifiedOn": "2022-04-01T07:10:41.350Z"
+  },
+  {
+    "id": "builtin_text-Y7HEnY",
+    "formData": {
+      "text$en": "Whoops, looks like you fell out of bounds!",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-04-01T07:17:33.496Z",
+    "modifiedOn": "2022-04-01T07:17:33.496Z"
+  },
+  {
+    "id": "builtin_text-vMu5RJ",
+    "formData": {
+      "text$en": "Bringing you back to a safe place",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-04-01T07:17:47.717Z",
+    "modifiedOn": "2022-04-01T07:17:47.717Z"
+  },
+  {
+    "id": "builtin_text-itzgUB",
+    "formData": {
+      "text$en": "Great, try writing something like “Show me Mars rover pictures from 5 Feb 2018\"",
+      "markdown$en": true,
+      "typing$en": true,
+      "variations$en": [
+        "Great, try writing something like “Show me Mars rover pictures from April first 2016\"",
+        "Great, try writing something like “Show me Mars rover pictures from 2014-10-02\""
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-04-01T07:23:35.112Z",
+    "modifiedOn": "2022-04-01T07:23:35.112Z"
+  },
+  {
+    "id": "builtin_text-zLbbEv",
+    "formData": {
+      "text$en": "I'm sorry, I didn't get that.",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-04-01T07:26:56.295Z",
+    "modifiedOn": "2022-04-01T07:26:56.295Z"
+  },
+  {
+    "id": "builtin_text-T4IlGh",
+    "formData": {
+      "text$en": "SUCCESS",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-04-01T07:37:28.173Z",
+    "modifiedOn": "2022-04-01T07:37:28.173Z"
+  },
+  {
+    "id": "builtin_text-_4WUaL",
+    "formData": {
+      "text$en": "Which day would you like to get pictures from? (Date between 2013 and 2020)",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-04-01T07:50:54.143Z",
+    "modifiedOn": "2022-04-01T07:50:54.143Z"
+  },
+  {
+    "id": "builtin_text-zY_-f-",
+    "formData": {
+      "text$en": "Not sure I got that. Maybe try YYYY-MM-DD, like 2015-09-09",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-04-01T07:51:34.607Z",
+    "modifiedOn": "2022-04-01T07:51:34.607Z"
+  },
+  {
+    "id": "builtin_text-GopIE8",
+    "formData": {
+      "text$en": "No pics found for that particular day.",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-04-01T08:03:01.272Z",
+    "modifiedOn": "2022-04-01T08:03:01.272Z"
+  },
+  {
+    "id": "builtin_text-gnA0pT",
+    "formData": {
+      "text$en": "There you go. :D",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-04-01T09:07:01.056Z",
+    "modifiedOn": "2022-04-01T09:07:01.056Z"
+  }
+]

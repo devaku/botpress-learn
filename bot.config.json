@@ -1,0 +1,53 @@
+{
+  "locked": false,
+  "disabled": false,
+  "private": false,
+  "details": {},
+  "$schema": "../../bot.config.schema.json",
+  "description": "",
+  "active": true,
+  "version": "12.26.12",
+  "author": "Botpress, Inc.",
+  "license": "AGPL-3.0",
+  "imports": {
+    "modules": [],
+    "incomingMiddleware": [],
+    "outgoingMiddleware": [],
+    "contentTypes": [
+      "builtin_action-button",
+      "builtin_audio",
+      "builtin_card",
+      "builtin_carousel",
+      "dropdown",
+      "builtin_file",
+      "builtin_image",
+      "builtin_location",
+      "builtin_single-choice",
+      "builtin_text",
+      "builtin_video"
+    ]
+  },
+  "dialog": {
+    "timeoutInterval": "5m"
+  },
+  "logs": {
+    "expiration": "1 week"
+  },
+  "defaultLanguage": "en",
+  "languages": [
+    "en"
+  ],
+  "id": "learn",
+  "name": "learn",
+  "pipeline_status": {
+    "current_stage": {
+      "id": "prod",
+      "promoted_on": "2022-04-01T06:59:18.177Z",
+      "promoted_by": "ukim@tinkrtech.io"
+    }
+  },
+  "messaging": {
+    "id": "1571e25a-1779-40c2-acad-3a9c5be586ff",
+    "token": "040db873-4199-4998-b1e3-3d924ce9addb.V05gipc6joWK6QEt8gJQduIfpw9CRJG//vUfVeDa+thW+H8ZLKDFQKNEB2yRmdRpyI95lyMY3lrYjFJGn9Y+2Pz7"
+  }
+}

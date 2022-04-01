@@ -1,0 +1,26 @@
+[
+  {
+    "id": "builtin_single-choice-PcNYO_",
+    "formData": {
+      "dropdownPlaceholder$en": "Select...",
+      "choices$en": [
+        {
+          "title": "Yes, show me pictures.",
+          "value": "Yes, show me pictures."
+        },
+        {
+          "title": "No, test out the NLU first.",
+          "value": "No, test out the NLU first."
+        }
+      ],
+      "markdown$en": true,
+      "disableFreeText$en": true,
+      "typing$en": true,
+      "text$en": "Would you like to look at pictures from rovers?",
+      "isDropdown$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-04-01T07:15:38.844Z",
+    "modifiedOn": "2022-04-01T07:15:38.844Z"
+  }
+]

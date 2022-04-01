@@ -1,0 +1,13 @@
+[
+  {
+    "id": "builtin_file-CUvcvI",
+    "formData": {
+      "typing$en": true,
+      "title$en": "Mars Rover Picture",
+      "file$en": "{{{temp.roverImageUrl}}}"
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-04-01T09:06:37.641Z",
+    "modifiedOn": "2022-04-01T09:06:37.641Z"
+  }
+]

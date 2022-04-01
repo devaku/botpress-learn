@@ -1,0 +1,104 @@
+{
+  "version": "0.0.1",
+  "catchAll": {},
+  "startNode": "Grab_date",
+  "description": "",
+  "nodes": [
+    {
+      "id": "skill-8ecd89",
+      "type": "skill-call",
+      "skill": "Slot",
+      "name": "Grab_date",
+      "flow": "skills/Slot-8ecd89.flow.json",
+      "next": [
+        {
+          "caption": "On extracted",
+          "condition": "temp.extracted == \"true\"",
+          "node": "Check_day"
+        },
+        {
+          "caption": "On not found",
+          "condition": "temp.notExtracted == \"true\"",
+          "node": "fallback-redirect.flow.json"
+        },
+        {
+          "caption": "On already extracted",
+          "condition": "temp.alreadyExtracted == \"true\"",
+          "node": "Check_day"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "74e90b58d2",
+      "name": "Check_day",
+      "next": [
+        {
+          "condition": "temp.roverImageUrl === null",
+          "conditionType": "props",
+          "node": "no_pics_on_that_day"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Display_Image"
+        }
+      ],
+      "onEnter": [
+        "get-rover-images {\"earthDate\":\"{{session.slots.earthDate.value}}\"}",
+        "basic-skills/slot_reset {\"slotName\":\"earthDate\"}"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "051e94203e",
+      "name": "no_pics_on_that_day",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "main.flow.json#Suggestion_action"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-GopIE8"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "d679357b43",
+      "name": "Display_Image",
+      "next": [
+        {
+          "condition": "true",
+          "node": "Back_to_Main"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_file-CUvcvI"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "efecf38bdb",
+      "name": "Back_to_Main",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "main.flow.json"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-gnA0pT",
+        "builtin/wait {\"delay\":\"2000\"}"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    }
+  ]
+}
